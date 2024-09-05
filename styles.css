@@ -20,5 +20,5 @@ iframe {
     width: 100%;
     min-height: 200px; /* Minimum height for each iframe */
     height: 100%; /* Make each iframe take up the full height of its grid cell */
-    object-fit: cover; /* Ensure the content scales correctly */
+    object-fit: auto; /* Ensure the content scales correctly */
 }
