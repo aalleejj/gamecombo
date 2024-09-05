@@ -1,0 +1,22 @@
+/* styles.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.iframe-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    position: relative;
+}
+
+iframe {
+    border: none;
+    flex: 1; /* Flex-grow to fill available space */
+    width: 100%;
+    min-height: 0; /* Ensures iframes can shrink to fit container */
+}
