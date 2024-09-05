@@ -20,6 +20,6 @@ iframe {
     width: 100%;
     min-height: 200px; /* Minimum height for each iframe */
     height: 100%; /* Make each iframe take up the full height of its grid cell */
-    object-fit: contain; /* Ensures the content scales correctly while maintaining aspect ratio */
+    object-fit: cover; /* Ensures the content scales correctly while maintaining aspect ratio */
     /* Optionally, you can also use `object-fit: cover;` depending on how you want the content to be displayed */
 }
